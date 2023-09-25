@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tabla de Etiquetas HTML</title>
+</head>
+<body>
+    <h1>Etiquetas HTML</h1>
+    <table border="1">
+        <tr>
+            <th>NOMBRE</th>
+            <th>INICIO</th>
+            <th>FINAL</th>
+            <th>COMENTARIOS</th>
+            <th>MAS INFORMACION</th>
+        </tr>
+        <tr>
+            <td>Inicio de documento</td>
+            <td><code>&lt;html&gt;</code></td>
+            <td><code>&lt;/html&gt;</code></td>
+            <td>Toda la codificación debe estar incluida en estas etiquetas</td>
+            <td><a href="https://www.abrirllave.com/html/primer-documento-html.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Encabezado</td>
+            <td><code>&lt;head&gt;</code></td>
+            <td><code>&lt;/head&gt;</code></td>
+            <td>Dentro del encabezado se encontrará el título.</td>
+            <td><a href="https://www.abrirllave.com/html/primer-documento-html.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Titulo</td>
+            <td><code>&lt;title&gt;</code></td>
+            <td><code>&lt;/title&gt;</code></td>
+            <td>Es el texto que aparece en la barra de títulos del navegador</td>
+            <td><a href="https://www.abrirllave.com/html/primer-documento-html.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Cuerpo</td>
+            <td><code>&lt;body&gt;</code></td>
+            <td><code>&lt;/body&gt;</code></td>
+            <td>Cuerpo de la página</td>
+            <td><a href="https://www.abrirllave.com/html/primer-documento-html.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Color de fondo</td>
+            <td><code>&lt;body bgcolor="#RRVVAA"&gt;</code></td>
+            <td><code>&lt;/body&gt;</code></td>
+            <td>Permite colocar un color uniforme de fondo a toda la página. Este color estará formado por 3 números hexadecimales que indiquen: RR = tonalidad de color rojo, VV = tonalidad del color verde, AA = tonalidad del color azul</td>
+            <td><a href="https://htmlcolorcodes.com/es/tutoriales/html-color-de-fondo/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Imagen de Fondo</td>
+            <td><code>&lt;<body background="nombreimagen.gif">&gt;</code></td>
+            <td><code>&lt;/body&gt;</code></td>
+            <td>nombreimagen.gif deberá reemplazarse por el nombre de la imagen. Se recomienda utilizar formatos .gif o .jpg</td>
+            <td><a href="https://desarrolloweb.com/articulos/1384.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Colores de texto y enlaces</td>
+            <td><code>&lt;body text="#RRVVAA" Link="#RRVVAA" Vlink="#RRVVAA" Alink="#RRVVAA"&gt;</code></td>
+            <td></td>
+            <td>Permite definir los colores que se aplicarán en forma genérica para el texto como para los enlaces. El color está representado por un número hexadecimal.</td>
+            <td><a href="https://htmlcolorcodes.com/es/tutoriales/html-color-del-texto/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Estilos</td>
+            <td><code>&lt;style&gt;</code></td>
+            <td><code>&lt;/style&gt;</code></td>
+            <td>Permite definir un estilo de fuente, color, tamaño, etc., para todo el documento.</td>
+            <td><a href="https://www.abrirllave.com/html/estilos.php">Link</a></td>
+        </tr>
+        <tr>
+            <td>Meta</td>
+            <td><code>&lt;meta name="description" content="comentarios" name="keywords" content="palabra1 palabra2 ... palabran"&gt;</code></td>
+            <td><code>&lt;/meta&gt;</code></td>
+            <td>Permite definir propiedades internas del documento. Name = "description" content = "Será el resumen con que se publicará en el buscador. No utilizar más de 25 palabras". Name = "keywords" content = "podrán definirse palabras claves para que nuestro documento sea encontrado por los buscadores."</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/meta">Link</a></td>
+        </tr>
+        <tr>
+            <td>Sonido</td>
+            <td><code>&lt;bgsound src="xx.wav" loop="infinite"&gt;</code><br><code>&lt;embed src="xx.wav" width="200" height="55" autostart="true" loop="true" hidden="true"&gt;</code></td>
+            <td></td>
+            <td>Ejecuta un archivo de sonido. 'xx.wav' se debe reemplazar por el nombre del archivo; 'loop' indica la cantidad de veces que se repetirá. La etiqueta Embed con sus propiedades se utiliza por las incompatibilidades de los navegadores. Con esta opción, aparece una consola cuyas dimensiones se definen con 'width' y 'height' y que puede ocultarse con 'hidden="true"'</td>
+            <td><a href="https://programacion.net/articulo/entendiendo_el_tag_audio_de_html_5_2155#:~:text=Introducido%20en%20HTML%2C%20el%20tag,por%20todos%20los%20navegadores%20modernos.">Link</a></td>
+        </tr>
+        <tr>
+            <td>Encabezamientos</td>
+            <td><code>&lt;h1&gt;&lt;h2&gt;....&lt;h6&gt;</code></td>
+            <td><code>&lt;/h1&gt;&lt;/h2&gt;....&lt;/h6&gt;</code></td>
+            <td>Opciones de formato de texto para encabezados</td>
+            <td><a href="https://blog.soyhenry.com/que-son-los-encabezados-en-html/#:~:text=Los%20encabezados%20HTML%20o%20heading,la%20jerarqu%C3%ADa%20de%20dicha%20cabecera.">Link</a></td>
+        </tr>
+        <tr>
+            <td>Negrita</td>
+            <td><code>&lt;b&gt;</code></td>
+            <td><code>&lt;/b&gt;</code></td>
+            <td>Coloca el texto incluido con este formato.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/b">Link</a></td>
+        </tr>
+        <tr>
+            <td>Cursiva</td>
+            <td><code>&lt;i&gt;</code></td>
+            <td><code>&lt;/i&gt;</code></td>
+            <td>Coloca el texto incluido con este formato.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/i">Link</a></td>
+        </tr>
+        <tr>
+            <td>Subrayado</td>
+            <td><code>&lt;u&gt;</code></td>
+            <td><code>&lt;/u&gt;</code></td>
+            <td>Coloca el texto incluido con este formato.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/u">Link</a></td>
+        </tr>
+        <tr>
+            <td>Parpadeo</td>
+            <td><code>&lt;blink&gt;</code></td>
+            <td><code>&lt;/blink&gt;</code></td>
+            <td>El texto estará parpadeante.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Glossary/Blink">Link</a></td>
+        </tr>
+        <tr>
+            <td>Grande</td>
+            <td><code>&lt;big&gt;</code></td>
+            <td><code>&lt;/big&gt;</code></td>
+            <td>Agranda el texto.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/big">Link</a></td>
+        </tr>
+        <tr>
+            <td>Pequeña</td>
+            <td><code>&lt;small&gt;</code></td>
+            <td><code>&lt;/small&gt;</code></td>
+            <td>Disminuye el texto.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/small">Link</a></td>
+        </tr>
+        <tr>
+            <td>Subíndice</td>
+            <td><code>&lt;sub&gt;</code></td>
+            <td><code>&lt;/sub&gt;</code></td>
+            <td>Representa el texto bajo el renglón.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/meta">Link</a></td>
+        </tr>
+        <tr>
+            <td>Superíndice</td>
+            <td><code>&lt;sup&gt;</code></td>
+            <td><code>&lt;/sup&gt;</code></td>
+            <td>Representa el texto sobre el renglón.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/sub">Link</a></td>
+        </tr>
+        <tr>
+            <td>Tamaño del Texto</td>
+            <td><code>&lt;font size="n"&gt;</code></td>
+            <td><code>&lt;/font&gt;</code></td>
+            <td>Define un tamaño de fuente específico. 'n' representa un número del 0 al 7 al que luego podrán agregársele los signos + o -.</td>
+            <td><a href="https://www.uv.es/jac/guia/tamanyo.htm">Link</a></td>
+        </tr>
+        <tr>
+            <td>Tipo de fuente</td>
+            <td><code>&lt;font face="nombre de fuente"&gt;</code></td>
+            <td><code>&lt;/font&gt;</code></td>
+            <td>Permite definir un nombre de fuente específico.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/font">Link</a></td>
+        </tr>
+        <tr>
+            <td>Estilo de fuente</td>
+            <td><code>&lt;tt&gt;</code></td>
+            <td><code>&lt;/tt&gt;</code></td>
+            <td>Formato de fuente Courier de tamaño menor (Typewriter).</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/tt">Link</a></td>
+        </tr>
+        <tr>
+            <td>Texto preformateado</td>
+            <td><code>&lt;pre&gt;</code></td>
+            <td><code>&lt;/pre&gt;</code></td>
+            <td>Formato de fuente tipo Courier. Se representan los espacios en blanco.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/pre">Link</a></td>
+        </tr>
+        <tr>
+            <td>Texto en Movimiento</td>
+            <td><code>&lt;marquee&gt;(texto)&lt;/marquee&gt;</code></td>
+            <td></td>
+            <td>Permite que un texto tenga movimiento. Pueden agregarse atributos para dimensionar la marquesina, para alinear el texto, para modificar tamaño, fuente y color.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/marquee">Link</a></td>
+        </tr>
+        <tr>
+            <td>Línea Horizontal</td>
+            <td><code>&lt;hr size="n"&gt;</code></td>
+            <td></td>
+            <td>No utiliza etiqueta de cierre. Traza una línea horizontal cuyo grosor está representado por "n".</td>
+            <td><a href="https://tutorialehtml.com/es/tutoriales-html-linea-horizontal/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Espacio en Blanco</td>
+            <td><code>&amp;nbsp;</code></td>
+            <td></td>
+            <td>Representa un espacio en blanco.</td>
+            <td><a href="https://uniwebsidad.com/libros/xhtml/capitulo-3/espacios-en-blanco-y-nuevas-lineas">Link</a></td>
+        </tr>
+        <tr>
+            <td>Comentario</td>
+            <td><code>&lt;!-- comentario --&gt;</code></td>
+            <td></td>
+            <td>Comentarios que no serán visibles en la pantalla.</td>
+            <td><a href="https://assemblerinstitute.com/blog/comentarios-en-html/#:~:text=Para%20hacer%20comentarios%20en%20HTML%20se%20utiliza%20la%20etiqueta%20%3C!">Link</a></td>
+        </tr>
+        <tr>
+            <td>Caracteres especiales</td>
+            <td>
+                &amp;lt;<br>
+                &amp;;gt<br>
+                &amp;amp;<br>
+                &amp;quot;<br>
+                &amp;aacute;<br>
+                &amp;eacute;<br>
+                &amp;iacute;<br>
+                &amp;oacute;<br>
+                &amp;uacute;<br>
+                &amp;Aacute;<br>
+                &amp;Eacute;<br>
+                &amp;Iacute;<br>
+                &amp;Oacute;<br>
+                &amp;Uacute;<br>
+                &amp;ntilde;<br>
+                &amp;Ntilde;<br>
+                &amp;uuml;<br>
+                &amp;Uuml;<br>
+                &amp;#191;<br>
+                &amp;#161;<br>
+            </td>
+            <td>
+                &lt;<br>
+                &gt;<br>
+                &amp;<br>
+                &quot;<br>
+                &aacute;<br>
+                &eacute;<br>
+                &iacute;<br>
+                &oacute;<br>
+                &uacute;<br>
+                &Aacute;<br>
+                &Eacute;<br>
+                &Iacute;<br>
+                &Oacute;<br>
+                &Uacute;<br>
+                &ntilde;<br>
+                &Ntilde;<br>
+                &uuml;<br>
+                &Uuml;<br>
+                &#191;<br>
+                &#161;
+            </td>
+            <td>Permiten que los caracteres especiales sean leídos por todos los navegadores en sus distintas versiones.
+                La escritura de cada carácter comienza con el signo ampersand (&amp;) y debe terminar con punto y coma (;).
+                En esta tabla vemos cómo escribir algunos símbolos, signos, las letras Ñ y ñ, y las vocales acentuadas en
+                mayúscula y minúscula. </td>
+            <td><a href="http://personal.cimat.mx:8181/~amor/Academic/Books/Tutorial_HTML/caracteres.html">Link</a></td>
+        </tr>
+        <tr>
+            <td>Alineaciones</td>
+            <td>
+                <code>&lt;center&gt;</code><br>
+                <code>&lt;left&gt;</code><br>
+                <code>&lt;right&gt;</code>
+            </td>
+            <td>
+                <code>&lt;/center&gt;</code><br>
+                <code>&lt;/left&gt;</code><br>
+                <code>&lt;/right&gt;</code>
+            </td>
+            <td>Todo texto que se escriba entre estas etiquetas sufrirá esa alineación.</td>
+            <td><a href="http://www.cca.org.mx/cca/cursos/bmx/html_es/04_m3/t2_1_2.htm">Link</a></td>
+        </tr>
+        <tr>
+            <td>Sangría</td>
+            <td><code>&lt;blockquote&gt;</code></td>
+            <td><code>&lt;/blockquote&gt;</code></td>
+            <td>Se utiliza para destacar una cita.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/blockquote">Link</a></td>
+        </tr>
+        <tr>
+            <td>Párrafo</td>
+            <td><code>&lt;p align="center|left|right"&gt;</code></td>
+            <td><code>&lt;/p&gt;</code></td>
+            <td>Realiza la separación entre párrafos, y la alineación de estos.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/p">Link</a></td>
+        </tr>
+        <tr>
+            <td>Renglones en blanco</td>
+            <td><code>&lt;br&gt;</code></td>
+            <td></td>
+            <td>Permite dejar renglones en blanco.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/br">Link</a></td>
+        </tr>
+        <tr>
+            <td>Imagen Individual</td>
+            <td><code>&lt;img src="nombreimagen.gif"&gt;</code></td>
+            <td></td>
+            <td>Permite insertar una imagen en la página que estamos diseñando. El archivo de la imagen deberá estar ubicado en la misma carpeta que la página, caso contrario se deberá indicar su ruta de acceso.</td>
+            <td><a href="https://www.manualweb.net/html/imagenes-html/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Texto de la imagen</td>
+            <td><code>&lt;img src="nombreimagen.gif" alt="texto"&gt;</code></td>
+            <td></td>
+            <td>Coloca un texto que podrá leerse al pasar el puntero del ratón sobre la imagen o cuando ésta no se carga.</td>
+            <td><a href="https://www.manualweb.net/html/imagenes-html/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Alineación del texto</td>
+            <td><code>&lt;img src="nombreimagen.gif" align="top|middle|bottom"&gt;</code></td>
+            <td></td>
+            <td>Indicará la posición en que ubicaremos al texto que acompaña a la imagen. Puedes usar "top" (arriba), "middle" (medio) o "bottom" (abajo).</td>
+            <td><a href="https://www.geeksforgeeks.org/how-to-align-image-in-html/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Ancho y Alto</td>
+            <td><code>&lt;img src="nombreimagen.gif" width="n" height="n"&gt;</code></td>
+            <td></td>
+            <td>Define el tamaño de la imagen. "width" (ancho) y "height" (altura) deben ser valores en píxeles (n es un número).</td>
+            <td><a href="https://lineadecodigo.com/html/alto-y-ancho-de-una-imagen-con-html/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Videos</td>
+            <td><code>&lt;img dynsrc="archivo.avi" loop="infinite" controls start="mouseover"&gt;</code></td>
+            <td></td>
+            <td>Permite agregar archivos de video.</td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/video">Link</a></td>
+        </tr>
+        <tr>
+            <td>Lista numerada</td>
+            <td>
+                <code>&lt;ol type="A|a|I|i" start="n"&gt;</code><br>
+                <code>&lt;lh&gt; título de la lista &lt;/lh&gt;</code><br>
+                <code>&lt;li&gt; Primera opción</code><br>
+                <code>&lt;li&gt; Segunda opción</code><br>
+                <code>&lt;li&gt; Tercera opción</code>
+            </td>
+            <td></td>
+            <td>Se utiliza cuando las opciones deben ser numeradas. La opción "type" representa números o letras y "start" indica el número con el que inicia.</td>
+            <td><a href="https://www.hazunaweb.com/curso-de-html/listas">Link</a></td>
+        </tr>
+        <tr>
+            <td>Lista no ordenada</td>
+            <td>
+                <code>&lt;ul type="square|circle|disk"&gt;</code><br>
+                <code>&lt;lh&gt; título de la lista &lt;/lh&gt;</code><br>
+                <code>&lt;li&gt; Primera opción</code><br>
+                <code>&lt;li&gt; Segunda opción</code><br>
+                <code>&lt;li&gt; Tercera opción</code>
+            </td>
+            <td></td>
+            <td>Se utiliza cuando las opciones no presentan un orden determinado. La opción "type" representa la viñeta.</td>
+            <td><a href="https://www.hazunaweb.com/curso-de-html/listas/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Lista con sangrado</td>
+            <td>
+                <code>&lt;dl&gt;</code><br>
+                <code>&lt;lh&gt; título de la lista &lt;/lh&gt;</code><br>
+                <code>&lt;dt&gt; Primer tema</code><br>
+                <code>&lt;dd&gt; Primer detalle</code><br>
+                <code>&lt;dd&gt; Segundo detalle</code><br>
+                <code>&lt;dt&gt; Segundo tema</code><br>
+                <code>&lt;dd&gt; Tercer detalle</code><br>
+                <code>&lt;dd&gt; Cuarto detalle</code>
+            </td>
+            <td></td>
+            <td>Se utiliza cuando las opciones llevan un título y una definición.</td>
+            <td><a href="https://www.hazunaweb.com/curso-de-html/listas/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Enlace a otro URL</td>
+            <td><code>&lt;a href="xxx"&gt; yyy</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>xxx se debe reemplazar por la dirección URL destino del enlace.<br>yyy es el texto indicativo que se leerá en la página.</td>
+            <td><a href="https://web.ua.es/es/accesibilidad/accesibilidad-web/enlaces-para-ir-a-una-seccion-determinada.html">Link</a></td>
+        </tr>
+        <tr>
+            <td>Enlace a un e-mail</td>
+            <td><code>&lt;a href="mailto:dirección e-mail"&gt; texto indicativo del enlace</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>Te permite un enlace directo a tu cliente de correo predeterminado.</td>
+            <td><a href="https://www.tutorialspoint.com/html/html_email_links.htm">Link</a></td>
+        </tr>
+        <tr>
+            <td>Marca para enlace dentro de la misma página (Ancla - Anchor)</td>
+            <td><code>&lt;a href="#marca"&gt; Texto de enlace al ancla</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>Referencia una posición a la que luego se accederá.</td>
+            <td><a href="https://www.duiops.net/curso/enldp.htm">Link</a></td>
+        </tr>
+        <tr>
+            <td>Localizar enlace anterior</td>
+            <td><code>&lt;a name="marca"&gt; texto del ancla</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>Enlaza una posición previamente marcada dentro de la misma página.</td>
+            <td><a href="https://uniwebsidad.com/libros/xhtml/capitulo-4/enlaces-basicos">Link</a></td>
+        </tr>
+        <tr>
+            <td>Enlace a otra página con marca, dentro del mismo sitio</td>
+            <td><code>&lt;a href="ab.htm#marca"&gt; texto indicativo del enlace</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>Enlaza a la posición establecida en "marca" en la página ab.htm.</td>
+            <td><a href="https://uniwebsidad.com/libros/xhtml/capitulo-4/enlaces-basicos">Link</a></td>
+        </tr>
+        <tr>
+            <td>Enlace con imágenes</td>
+            <td><code>&lt;a href="xxx"&gt;&lt;img src="nombreimagen.gif"&gt;</code></td>
+            <td>&lt;/a&gt;</td>
+            <td>xxx se debe reemplazar por la dirección URL destino del enlace.<br>nombreimagen.gif se debe reemplazar por el nombre de imagen seleccionado.<br>Enlaza a la dirección URL haciendo clic sobre la imagen.</td>
+            <td><a href="https://lineadecodigo.com/html/imagen-con-enlace-en-html/">Link</a></td>
+        </tr>
+        <tr>
+            <td>Tablas</td>
+            <td><code>&lt;table&gt;</code></td>
+            <td><code>&lt;/table&gt;</code></td>
+            <td><code>Crea una tabla</code></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/table">Link</a></td>
+        </tr>
+        <tr>
+            <td>Bordes</td>
+            <td><code>&lt;table border="n" bordercolor="#RRVVAA"&gt;</code></td>
+            <td></td>
+            <td><code>n = representa al grosor del borde. También se podrá especificar el color del borde</code></td>
+            <td><a href="https://www.htmlhelp.com/es/reference/css/box/border.html#:~:text=La%20propiedad%20border%20es%20una,borde%20izquierdo%20de%20un%20elemento.&text=La%20propiedad%20border%20solo%20puede,ancho%20y%20estilo%20de%20borde.">Link</a></td>
+        </tr>
+        <tr>
+            <td>Separación entre celdas</td>
+            <td><code>&lt;table cellspacing="n"&gt;</code></td>
+            <td></td>
+            <td><code>n = Las celdas podrán separarse por el valor n</code></td>
+            <td><a href="https://www.ibiblio.org/pub/Linux/docs/LuCaS/Manuales-LuCAS/doc-curso-html/doc-curso-html/x2977.html">Link</a></td>
+        </tr>
+        <tr>
+            <td>Separación entre el borde y el contenido</td>
+            <td><code>&lt;table cellpadding="n"&gt;</code></td>
+            <td></td>
+            <td><code>n = El contenido podrá estar separado del borde por el valor indicado en n</code></td>
+            <td><a href="https://www.ibiblio.org/pub/Linux/docs/LuCaS/Manuales-LuCAS/doc-curso-html/doc-curso-html/x2977.html">Link</a></td>
+        </tr>
+        <tr>
+            <td>Boton</td>
+            <td><code>&lt;caption align="top|bottom"&gt; texto  </code></td>
+            <td>&lt;/caption&gt;</td>
+            <td><code>Posibilita colocar un boton alineado top (arriba) o bottom (abajo)</code></td>
+            <td><a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/button">Link</a></td>
+        </tr>
+        <tr>
+            <td>Definición de filas</td>
+            <td><code>&lt;tr align="left|center|right" valign="top|middle|bottom" bgcolor="#RRVVAA"&gt;</code></td>
+            <td>&lt;/tr&gt;</td>
+            <td><code>Por cada fila que tenga la tabla deberá utilizarse esta etiqueta: se podrá establecer la alineación del contenido, la ubicación dentro de la fila y el color de fondo.</code></td>
+        </tr>
+        <tr>
+            <td>Definición de títulos</td>
+            <td><code>&lt;th align="left|center|right|justify|decimal" valign="top|middle|bottom|baseline" bgcolor="#RRVVAA"&gt;</code></td>
+            <td>&lt;/th&gt;</td>
+            <td><code>Permite definir los nombres de las columnas.</code></td>
+        </tr>
+        <tr>
+            <td>Definición de datos o contenidos</td>
+            <td><code>&lt;td align="left|center|right|justify|decimal" valign="top|middle|bottom|baseline" bgcolor="#RRVVAA"&gt;</code></td>
+            <td>&lt;/td&gt;</td>
+            <td><code>Coloca contenidos a cada celda</code></td>
+        </tr>
+        <tr>
+            <td>Celda que ocupa muchas filas</td>
+            <td><code>&lt;td rowspan="numero de filas"&gt;</code></td>
+            <td>&lt;/td&gt;</td>
+            <td><code>Se puede combinar una celda para que ocupe muchas filas.</code></td>
+        </tr>
+        <tr>
+            <td>Celda que ocupa muchas columnas</td>
+            <td><code>&lt;td colspan="numero de columnas"&gt;</code></td>
+            <td>&lt;/td&gt;</td>
+            <td><code>Se puede combinar una celda para que ocupe muchas columnas.</code></td>
+        </tr>
+        <tr>
+            <td>Definición</td>
+            <td><code>&lt;form&gt;</code></td>
+            <td></td>
+            <td><code>Inicia un formulario. Se utiliza para la entrada o el envío de datos.</code></td>
+        </tr>
+        <tr>
+            <td>Acciones</td>
+            <td><code>&lt;form action="mailto:direccion@email" method="post" enctype="text/plain"&gt;Texto referente</code></td>
+            <td></td>
+            <td><code>Envía la respuesta inmediatamente a la dirección especificada en formato de texto.</code></td>
+        </tr>
+        <tr>
+            <td>Introducción de datos</td>
+            <td><code>&lt;input type="text" name="nombre del campo formulario" value="asignación de un dato" size="número" maxlength="número"&gt;</code></td>
+            <td></td>
+            <td><code>Ingresa un objeto dentro del formulario, se deberá definir el tipo de objeto, el nombre del campo formulario, el valor inicial que se le asigna, el tamaño máximo de visualización del campo y el tamaño máximo de caracteres que puede tener ese campo. Con el "type" = "text" no se asigna "Value".</code></td>
+        </tr>
+        <tr>
+            <td>Opciones de type</td>
+            <td><code>button, checkbox, file, hidden, image, password, radio, reset, submit, text</code></td>
+            <td></td>
+            <td> <code>checkbox = se visualiza un cuadro de verificación, si deseamos que aparezca tildado agregamos CHECKED.<br>
+                password = el ingreso se representa con asteriscos.<br>
+                radio = visualiza botones de radio y permite que el usuario elija una opción entre varias. Se agregan tantos "input" como opciones deseamos.<br>
+                reset = visualiza un botón que al hacerle click borrará los datos.<br>
+                submit = visualiza un botón que al hacerle click enviará los datos.<br>
+                text = crea un campo para ingresar caracteres alfanuméricos.</code></td>
+        </tr>
+        <tr>
+            <td>Ingreso de un texto que ocupa muchas líneas</td>
+            <td><code>&lt;textarea name="nombre del campo formulario" rows="cantidad de filas" cols="cantidad de columnas"&gt;</code></td>
+            <td><code>&lt;/textarea&gt;</code></td>
+            <td><code>Permite ingresar un texto extenso, por ejemplo comentarios.</code></td>
+        </tr>
+        <tr>
+            <td>Ingreso por medio de un menú</td>
+            <td>
+                <code>&lt;select name="nombre del campo formulario"&gt;</code><br>
+                <code>&lt;option&gt;1º opción</code><br>
+                <code>&lt;option&gt;2º opción</code><br>
+                <code>&lt;option&gt;3º opción</code><br>
+            </td>
+            <td><code>&lt;/select&gt;</code></td>
+            <td> <code>Permite optar por los datos de un menú.</code></td>
+        </tr>
+        <tr>
+            <td>Definición</td>
+            <td><code>&lt;frameset&gt;</code></td>
+            <td></td>
+            <td>Inicia la definición de un frame.</td>
+        </tr>
+        <tr>
+            <td>Frames en columnas y Frame en filas</td>
+            <td>
+                <code>&lt;frameset cols="20%,80%"&gt;</code><br>
+                <code>&lt;frameset rows="30%,70%"&gt;</code>
+            </td>
+            <td></td>
+            <td>Define dos frames en columnas ocupando uno el 20% de la pantalla y el otro el 80% restante.<br>Define dos frames en filas ocupando uno el 30% de la pantalla y el 70% restante.</td>
+        </tr>
+        <tr>
+            <td>Contenido de cada frame</td>
+            <td>
+                <code>&lt;frame src="frame1.htm"&gt;</code><br>
+                <code>&lt;frame src="frame2.htm" name="principal"&gt;</code>
+            </td>
+            <td></td>
+            <td>Define en qué frame se cargará cada página.<br>Se asignará un "name" en este caso "principal" para indicar que se visualicen allí los futuros enlaces.</td>
+        </tr>
+        <tr>
+            <td>Destino del frame</td>
+            <td><code>target="principal"</code></td>
+            <td></td>
+            <td>Se utiliza como atributo de un enlace e indica en qué frame deberá visualizarse ese enlace.<br>"_blank" = se abrirá una nueva ventana del navegador y se visualizará en ella.<br>"_self" = el enlace se carga en el propio frame.<br>"_top" = el enlace se carga a pantalla completa en la misma ventana, suprimiendo los otros frames.</td>
+        </tr>
+        <tr>
+            <td>Atributos del tag frameset</td>
+            <td>
+                <code>border="0"</code><br>
+                <code>frameborder="0"</code><br>
+                <code>framespacing="0"</code>
+            </td>
+            <td></td>
+            <td><code>border="0" indica que no habrá huecos de separación entre frames (para Netscape).</code><br><code>frameborder="0" indica que no habrá borde de separación entre frames.</code><br><code>framespacing="0" indica que no habrá huecos de separación entre frames (para Explorer).</code></td>
+        </tr>
+        <tr>
+            <td>Atributos del tag frame</td>
+            <td>
+                <code>frameborder="no"</code><br>
+                <code>marginheight="número"</code><br>
+                <code>marginwidth="número"</code><br>
+                <code>name="nombre del frame"</code><br>
+                <code>noresize</code><br>
+                <code>scrolling="yes/no/auto"</code><br>
+                <code>src="dirección.htm"</code>
+            </td>
+            <td></td>
+            <td>
+                <code>frameborder="no" elimina los bordes de un frame.</code><br>
+                <code>marginwidth y marginheight definen el ancho y alto de los márgenes del frame.</code><br>
+                <code>name="nombre del frame" define el nombre del frame.</code><br>
+                <code>noresize indica que el frame no podrá redimensionarse.</code><br>
+                <code>scrolling indica si tendrá o no barra de desplazamiento.</code><br>
+                <code>src="dirección.htm" indica el contenido del frame.</code>
+            </td>
+        </tr>
+        <tr>
+            <td>Si el frame no puede visualizarse</td>
+            <td><code>&lt;noframes&gt;</code></td>
+            <td><code>&lt;/noframes&gt;</code></td>
+            <td>Si el navegador no cuenta con la posibilidad de incluir Frames, con este tag se puede definir una dirección alternativa. Se coloca luego de los tag FRAME y llevan dentro un texto definido entre los tag &lt;body&gt; &lt;/body&gt;</td>
+        </tr>
+    </table>
+</body>
+</html>
